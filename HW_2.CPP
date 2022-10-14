@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+
+int a,b,c,d,e;
+scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+printf("a=%d,b=%d,c=%d,d=%d,e=%d\n",a,b,c,d,e);
+printf("The rank is : "+(a>b)?((b>c)?((c>d)?((d>e)?("a>b>c>d>e"):((e>a)?("e>a>b>c>d"):(e>b)?("a>e>b>c>d"):(e>c)?("a>b>e>c>d"):("a>b>c>e>d"))):((d>a)?((e>d)?("e>d>a>b>c"):(e>a)?("d>e>a>b>c"):(e>b)?("d>a>e>b>c"):(e>c)?("d>a>b>e>c"):("d>a>b>c>e")):(d>b)?((e>a)?("e>a>d>b>c"):(e>d)?("a>e>d>b>c"):(e>b)?("a>d>e>b>c"):(e>c)?("a>d>b>e>c"):("a>d>b>c>e")):((e>a)?("e>a>b>d>c"):(e>b)?("a>e>b>d>c"):(e>d)?("a>b>e>d>c"):(e>c)?("a>b>d>e>c"):("a>b>d>c>e")))):((a>c)?((d>a)?((e>d)?("e>d>a>c>b"):(e>a)?("d>e>a>c>b"):(e>c)?("d>a>e>c>b"):(e>b)?("d>a>c>e>b"):("d>a>c>b>e")):(d>c)?((e>a)?("e>a>d>c>b"):(e>d)?("a>e>d>c>b"):(e>c)?("a>d>e>c>b"):(e>b)?("a>d>c>e>b"):("a>d>c>b>e")):(d>b)?((e>a)?("e>a>c>d>b"):(e>c)?("a>e>c>d>b"):(e>d)?("a>c>e>d>b"):(e>b)?("a>c>d>e>b"):("a>c>d>b>e")):((e>a)?("e>a>c>b>d"):(e>c)?("a>e>c>b>d"):(e>b)?("a>c>e>b>d"):(e>d)?("a>c>b>e>d"):("a>c>b>d>e"))):((d>c)?
+((e>d)?("e>d>c>a>b"):(e>c)?("d>e>c>a>b"):(e>a)?("d>c>e>a>b"):(e>b)?("d>c>a>e>b"):("d>c>a>b>e")):(d>a)?((e>c)?("e>c>d>a>b"):(e>d)?("c>e>d>a>b"):(e>a)?("c>d>e>a>b"):(e>b)?("c>d>a>e>b"):("c>d>a>b>e")):(d>b)?((e>c)?("e>c>a>d>b"):(e>a)?("c>e>a>d>b"):(e>d)?("c>a>e>d>b"):(e>b)?("c>a>d>e>b"):("c>a>d>b>e")):((e>c)?("e>c>a>b>d"):(e>a)?("c>e>a>b>d"):(e>b)?("c>a>e>b>d"):(e>d)?("c>a>b>e>d"):("c>a>b>d>e"))))):((a>c)?((c>d)?((d>e)?("b>a>c>d>e"):((e>b)?("e>b>a>c>d"):(e>a)?("a>e>b>c>d"):(e>c)?("b>a>e>c>d"):("b>a>c>e>d"))):((d>b)?((e>d)?("e>d>b>a>c"):(e>b)?("d>e>b>a>c"):(e>a)?("d>b>e>a>c"):(e>c)?("d>b>a>e>c"):("d>b>a>c>e")):(d>a)?((e>b)?("e>b>d>a>c"):(e>d)?("b>e>d>a>c"):(e>a)?("b>d>e>a>c"):(e>c)?("b>d>a>e>c"):("b>d>a>c>e")):((e>b)?("e>b>a>d>c"):(e>a)?("b>e>a>d>c"):(e>d)?("b>a>e>d>c"):(e>c)?("b>a>d>e>c"):("b>a>d>c>e")))):((b>c)?((d>b)?((e>d)?("e>d>b>c>a")
+:(e>b)?("d>e>b>c>a"):(e>c)?("d>b>e>c>a"):(e>a)?("d>b>c>e>a"):("d>b>c>a>e")):(d>c)?((e>b)?("e>b>d>c>a"):(e>d)?("b>e>d>c>a"):(e>c)?("b>d>e>c>a"):(e>a)?("b>d>c>e>a"):("b>d>c>a>e")):(d>b)?((e>b)?("e>b>c>d>a"):(e>c)?("b>e>c>d>a"):(e>d)?("b>c>e>d>a"):(e>a)?("b>c>d>e>a"):("b>c>d>a>e")):((e>b)?("e>b>c>a>d"):(e>c)?("b>e>c>a>d"):(e>a)?("b>c>e>a>d"):(e>d)?("b>c>a>e>d"):("b>c>a>d>e"))):((d>c)?((e>d)?("e>d>c>b>a"):(e>c)?("d>e>c>b>a"):(e>b)?("d>c>e>b>a"):(e>a)?("d>c>b>e>a"):("d>c>b>a>e")):(d>b)?((e>c)?("e>c>d>b>a"):(e>d)?("c>e>d>b>a"):(e>b)?("c>d>e>b>a"):(e>a)?("c>d>b>e>a"):("c>d>b>a>e")):(d>a)?((e>c)?("e>c>b>d>a"):(e>b)?("c>e>b>d>a"):(e>d)?("c>b>e>d>a"):(e>a)?("c>b>d>e>a"):("c>b>d>a>e")):((e>c)?("e>c>b>a>d"):(e>b)?("c>e>b>a>d"):(e>a)?("c>b>e>a>d"):(e>d)?("c>b>a>e>d"):("c>b>a>d>e"))))));
+printf("\n");
+getch();
+
+}

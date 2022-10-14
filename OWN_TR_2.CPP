@@ -1,0 +1,71 @@
+#include<stdio.h>
+void main()
+{
+   int a;
+   printf("%d\n",a);
+
+	if (a > 1) printf("hi");
+   else if (a > 2) printf("hi");
+   else if (a > 3) printf("hi");
+   else if (a > 4) printf("hi");
+   else if (a > 5) printf("hi");
+   else if (a > 6) printf("hi");
+   else if (a > 7) printf("hi");
+   else if (a > 8) printf("hi");
+   else if (a > 9) printf("hi");
+   else if (a > 10) printf("hi");
+   else if (a > 11) printf("hi");
+   else if (a > 12) printf("hi");
+   else if (a > 13) printf("hi");
+   else if (a > 14) printf("hi");
+   else if (a > 15) printf("hi");
+   else if (a > 16) printf("hi");
+   else if (a > 17) printf("hi");
+   else if (a > 18) printf("hi");
+   else if (a > 19) printf("hi");
+   else if (a > 20) printf("hi");
+   else if (a > 21) printf("hi");
+   else if (a > 22) printf("hi");
+   else if (a > 23) printf("hi");
+   else if (a > 24) printf("hi");
+   else if (a > 25) printf("hi");
+   else if (a > 26) printf("hi");
+   else if (a > 27) printf("hi");
+   else if (a > 28) printf("hi");
+   else if (a > 29) printf("hi");
+   else if (a > 30) printf("hi");
+   else if (a > 31) printf("hi");
+   else if (a > 32) printf("hi");
+   else if (a > 33) printf("hi");
+   else if (a > 34) printf("hi");
+   else if (a > 35) printf("hi");
+   else if (a > 36) printf("hi");
+   else if (a > 37) printf("hi");
+   else if (a > 38) printf("hi");
+   else if (a > 39) printf("hi");
+   else if (a > 40) printf("hi");
+   else if (a > 41) printf("hi");
+   else if (a > 42) printf("hi");
+   else if (a > 43) printf("hi");
+   else if (a > 44) printf("hi");
+   else if (a > 45) printf("hi");
+   else if (a > 46) printf("hi");
+   else if (a > 47) printf("hi");
+   else if (a > 48) printf("hi");
+   else if (a > 49) printf("hi");
+   else if (a > 50) printf("hi");
+   else if (a > 51) printf("hi");
+   else if (a > 52) printf("hi");
+   else if (a > 53) printf("hi");
+   else if (a > 54) printf("hi");
+   else if (a > 55) printf("hi");
+   else if (a > 56) printf("hi");
+   else if (a > 57) printf("hi");
+   else if (a > 58) printf("hi");
+   else if (a > 59) printf("hi");
+   else if (a > 60) printf("hi");
+   else if (a > 61) printf("hi");
+   else if (a > 62) printf("hi");
+   else printf("bye");
+}
+
